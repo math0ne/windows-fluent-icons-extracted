@@ -1,0 +1,1 @@
+The WinUI Fluent icons extracted into various png sizes and ico files in black and white
