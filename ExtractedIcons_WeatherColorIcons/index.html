@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherColorIcons - Icon Reference (Filtered)</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        h1 { color: #333; }
+        .info { background: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
+        .controls { background: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
+        .controls label { margin-right: 15px; }
+        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+        .icon-item { background: white; border: 1px solid #ddd; border-radius: 4px; padding: 15px; text-align: center; transition: all 0.2s; }
+        .icon-item:hover { border-color: #0078d4; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .icon-preview { display: flex; justify-content: center; align-items: center; height: 80px; margin-bottom: 10px; }
+        .icon-preview.dark { background: #333; border-radius: 4px; }
+        .icon-preview img { max-width: 64px; max-height: 64px; }
+        .icon-code { font-size: 11px; color: #666; font-family: monospace; margin-top: 5px; }
+        .unicode { font-size: 10px; color: #999; }
+    </style>
+</head>
+<body>
+    <h1>WeatherColorIcons - Extracted Icons (Filtered)</h1>
+    <div class="info">
+        <strong>Total icons:</strong> 85 (blank icons removed)<br>
+        <strong>Font name:</strong> WeatherColorIcons<br>
+        <strong>Unicode range:</strong> U+E000 to U+F8FF (Private Use Area)<br>
+        <strong>Colors:</strong> black, white<br>
+        <strong>Sizes:</strong> 256, 128, 64, 32, 16px
+    </div>
+    <div class="controls">
+        <label>Color:
+            <select id="colorSelect" onchange="updateIcons()">
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+        </label>
+        <label>Size:
+            <select id="sizeSelect" onchange="updateIcons()">
+                <option value="256">256px</option>
+                <option value="128">128px</option>
+                <option value="64">64px</option>
+                <option value="32">32px</option>
+                <option value="16">16px</option>
+            </select>
+        </label>
+    </div>
+    <div class="icon-grid" id="iconGrid">
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E015">
+                <img src="black/64/icon_U+E015.png" alt="U+E015" data-code="U+E015">
+            </div>
+            <div class="icon-code">U+E015</div>
+            <div class="unicode">\ue015</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E019">
+                <img src="black/64/icon_U+E019.png" alt="U+E019" data-code="U+E019">
+            </div>
+            <div class="icon-code">U+E019</div>
+            <div class="unicode">\ue019</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E01A">
+                <img src="black/64/icon_U+E01A.png" alt="U+E01A" data-code="U+E01A">
+            </div>
+            <div class="icon-code">U+E01A</div>
+            <div class="unicode">\ue01a</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E01B">
+                <img src="black/64/icon_U+E01B.png" alt="U+E01B" data-code="U+E01B">
+            </div>
+            <div class="icon-code">U+E01B</div>
+            <div class="unicode">\ue01b</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E01C">
+                <img src="black/64/icon_U+E01C.png" alt="U+E01C" data-code="U+E01C">
+            </div>
+            <div class="icon-code">U+E01C</div>
+            <div class="unicode">\ue01c</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E01D">
+                <img src="black/64/icon_U+E01D.png" alt="U+E01D" data-code="U+E01D">
+            </div>
+            <div class="icon-code">U+E01D</div>
+            <div class="unicode">\ue01d</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E01E">
+                <img src="black/64/icon_U+E01E.png" alt="U+E01E" data-code="U+E01E">
+            </div>
+            <div class="icon-code">U+E01E</div>
+            <div class="unicode">\ue01e</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E022">
+                <img src="black/64/icon_U+E022.png" alt="U+E022" data-code="U+E022">
+            </div>
+            <div class="icon-code">U+E022</div>
+            <div class="unicode">\ue022</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9BD">
+                <img src="black/64/icon_U+E9BD.png" alt="U+E9BD" data-code="U+E9BD">
+            </div>
+            <div class="icon-code">U+E9BD</div>
+            <div class="unicode">\ue9bd</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9BF">
+                <img src="black/64/icon_U+E9BF.png" alt="U+E9BF" data-code="U+E9BF">
+            </div>
+            <div class="icon-code">U+E9BF</div>
+            <div class="unicode">\ue9bf</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9C0">
+                <img src="black/64/icon_U+E9C0.png" alt="U+E9C0" data-code="U+E9C0">
+            </div>
+            <div class="icon-code">U+E9C0</div>
+            <div class="unicode">\ue9c0</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9C1">
+                <img src="black/64/icon_U+E9C1.png" alt="U+E9C1" data-code="U+E9C1">
+            </div>
+            <div class="icon-code">U+E9C1</div>
+            <div class="unicode">\ue9c1</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9C2">
+                <img src="black/64/icon_U+E9C2.png" alt="U+E9C2" data-code="U+E9C2">
+            </div>
+            <div class="icon-code">U+E9C2</div>
+            <div class="unicode">\ue9c2</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9C3">
+                <img src="black/64/icon_U+E9C3.png" alt="U+E9C3" data-code="U+E9C3">
+            </div>
+            <div class="icon-code">U+E9C3</div>
+            <div class="unicode">\ue9c3</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9C9">
+                <img src="black/64/icon_U+E9C9.png" alt="U+E9C9" data-code="U+E9C9">
+            </div>
+            <div class="icon-code">U+E9C9</div>
+            <div class="unicode">\ue9c9</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9CA">
+                <img src="black/64/icon_U+E9CA.png" alt="U+E9CA" data-code="U+E9CA">
+            </div>
+            <div class="icon-code">U+E9CA</div>
+            <div class="unicode">\ue9ca</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9CC">
+                <img src="black/64/icon_U+E9CC.png" alt="U+E9CC" data-code="U+E9CC">
+            </div>
+            <div class="icon-code">U+E9CC</div>
+            <div class="unicode">\ue9cc</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9CE">
+                <img src="black/64/icon_U+E9CE.png" alt="U+E9CE" data-code="U+E9CE">
+            </div>
+            <div class="icon-code">U+E9CE</div>
+            <div class="unicode">\ue9ce</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9D5">
+                <img src="black/64/icon_U+E9D5.png" alt="U+E9D5" data-code="U+E9D5">
+            </div>
+            <div class="icon-code">U+E9D5</div>
+            <div class="unicode">\ue9d5</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9E2">
+                <img src="black/64/icon_U+E9E2.png" alt="U+E9E2" data-code="U+E9E2">
+            </div>
+            <div class="icon-code">U+E9E2</div>
+            <div class="unicode">\ue9e2</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9EA">
+                <img src="black/64/icon_U+E9EA.png" alt="U+E9EA" data-code="U+E9EA">
+            </div>
+            <div class="icon-code">U+E9EA</div>
+            <div class="unicode">\ue9ea</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9EF">
+                <img src="black/64/icon_U+E9EF.png" alt="U+E9EF" data-code="U+E9EF">
+            </div>
+            <div class="icon-code">U+E9EF</div>
+            <div class="unicode">\ue9ef</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9F7">
+                <img src="black/64/icon_U+E9F7.png" alt="U+E9F7" data-code="U+E9F7">
+            </div>
+            <div class="icon-code">U+E9F7</div>
+            <div class="unicode">\ue9f7</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+E9FC">
+                <img src="black/64/icon_U+E9FC.png" alt="U+E9FC" data-code="U+E9FC">
+            </div>
+            <div class="icon-code">U+E9FC</div>
+            <div class="unicode">\ue9fc</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA02">
+                <img src="black/64/icon_U+EA02.png" alt="U+EA02" data-code="U+EA02">
+            </div>
+            <div class="icon-code">U+EA02</div>
+            <div class="unicode">\uea02</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA05">
+                <img src="black/64/icon_U+EA05.png" alt="U+EA05" data-code="U+EA05">
+            </div>
+            <div class="icon-code">U+EA05</div>
+            <div class="unicode">\uea05</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA07">
+                <img src="black/64/icon_U+EA07.png" alt="U+EA07" data-code="U+EA07">
+            </div>
+            <div class="icon-code">U+EA07</div>
+            <div class="unicode">\uea07</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA0D">
+                <img src="black/64/icon_U+EA0D.png" alt="U+EA0D" data-code="U+EA0D">
+            </div>
+            <div class="icon-code">U+EA0D</div>
+            <div class="unicode">\uea0d</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA10">
+                <img src="black/64/icon_U+EA10.png" alt="U+EA10" data-code="U+EA10">
+            </div>
+            <div class="icon-code">U+EA10</div>
+            <div class="unicode">\uea10</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA11">
+                <img src="black/64/icon_U+EA11.png" alt="U+EA11" data-code="U+EA11">
+            </div>
+            <div class="icon-code">U+EA11</div>
+            <div class="unicode">\uea11</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA12">
+                <img src="black/64/icon_U+EA12.png" alt="U+EA12" data-code="U+EA12">
+            </div>
+            <div class="icon-code">U+EA12</div>
+            <div class="unicode">\uea12</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA14">
+                <img src="black/64/icon_U+EA14.png" alt="U+EA14" data-code="U+EA14">
+            </div>
+            <div class="icon-code">U+EA14</div>
+            <div class="unicode">\uea14</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA1A">
+                <img src="black/64/icon_U+EA1A.png" alt="U+EA1A" data-code="U+EA1A">
+            </div>
+            <div class="icon-code">U+EA1A</div>
+            <div class="unicode">\uea1a</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EA1C">
+                <img src="black/64/icon_U+EA1C.png" alt="U+EA1C" data-code="U+EA1C">
+            </div>
+            <div class="icon-code">U+EA1C</div>
+            <div class="unicode">\uea1c</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB00">
+                <img src="black/64/icon_U+EB00.png" alt="U+EB00" data-code="U+EB00">
+            </div>
+            <div class="icon-code">U+EB00</div>
+            <div class="unicode">\ueb00</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB01">
+                <img src="black/64/icon_U+EB01.png" alt="U+EB01" data-code="U+EB01">
+            </div>
+            <div class="icon-code">U+EB01</div>
+            <div class="unicode">\ueb01</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB02">
+                <img src="black/64/icon_U+EB02.png" alt="U+EB02" data-code="U+EB02">
+            </div>
+            <div class="icon-code">U+EB02</div>
+            <div class="unicode">\ueb02</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB03">
+                <img src="black/64/icon_U+EB03.png" alt="U+EB03" data-code="U+EB03">
+            </div>
+            <div class="icon-code">U+EB03</div>
+            <div class="unicode">\ueb03</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB04">
+                <img src="black/64/icon_U+EB04.png" alt="U+EB04" data-code="U+EB04">
+            </div>
+            <div class="icon-code">U+EB04</div>
+            <div class="unicode">\ueb04</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB05">
+                <img src="black/64/icon_U+EB05.png" alt="U+EB05" data-code="U+EB05">
+            </div>
+            <div class="icon-code">U+EB05</div>
+            <div class="unicode">\ueb05</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB06">
+                <img src="black/64/icon_U+EB06.png" alt="U+EB06" data-code="U+EB06">
+            </div>
+            <div class="icon-code">U+EB06</div>
+            <div class="unicode">\ueb06</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB07">
+                <img src="black/64/icon_U+EB07.png" alt="U+EB07" data-code="U+EB07">
+            </div>
+            <div class="icon-code">U+EB07</div>
+            <div class="unicode">\ueb07</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB08">
+                <img src="black/64/icon_U+EB08.png" alt="U+EB08" data-code="U+EB08">
+            </div>
+            <div class="icon-code">U+EB08</div>
+            <div class="unicode">\ueb08</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB09">
+                <img src="black/64/icon_U+EB09.png" alt="U+EB09" data-code="U+EB09">
+            </div>
+            <div class="icon-code">U+EB09</div>
+            <div class="unicode">\ueb09</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0A">
+                <img src="black/64/icon_U+EB0A.png" alt="U+EB0A" data-code="U+EB0A">
+            </div>
+            <div class="icon-code">U+EB0A</div>
+            <div class="unicode">\ueb0a</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0B">
+                <img src="black/64/icon_U+EB0B.png" alt="U+EB0B" data-code="U+EB0B">
+            </div>
+            <div class="icon-code">U+EB0B</div>
+            <div class="unicode">\ueb0b</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0C">
+                <img src="black/64/icon_U+EB0C.png" alt="U+EB0C" data-code="U+EB0C">
+            </div>
+            <div class="icon-code">U+EB0C</div>
+            <div class="unicode">\ueb0c</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0D">
+                <img src="black/64/icon_U+EB0D.png" alt="U+EB0D" data-code="U+EB0D">
+            </div>
+            <div class="icon-code">U+EB0D</div>
+            <div class="unicode">\ueb0d</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0E">
+                <img src="black/64/icon_U+EB0E.png" alt="U+EB0E" data-code="U+EB0E">
+            </div>
+            <div class="icon-code">U+EB0E</div>
+            <div class="unicode">\ueb0e</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB0F">
+                <img src="black/64/icon_U+EB0F.png" alt="U+EB0F" data-code="U+EB0F">
+            </div>
+            <div class="icon-code">U+EB0F</div>
+            <div class="unicode">\ueb0f</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB10">
+                <img src="black/64/icon_U+EB10.png" alt="U+EB10" data-code="U+EB10">
+            </div>
+            <div class="icon-code">U+EB10</div>
+            <div class="unicode">\ueb10</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB11">
+                <img src="black/64/icon_U+EB11.png" alt="U+EB11" data-code="U+EB11">
+            </div>
+            <div class="icon-code">U+EB11</div>
+            <div class="unicode">\ueb11</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB12">
+                <img src="black/64/icon_U+EB12.png" alt="U+EB12" data-code="U+EB12">
+            </div>
+            <div class="icon-code">U+EB12</div>
+            <div class="unicode">\ueb12</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB13">
+                <img src="black/64/icon_U+EB13.png" alt="U+EB13" data-code="U+EB13">
+            </div>
+            <div class="icon-code">U+EB13</div>
+            <div class="unicode">\ueb13</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB14">
+                <img src="black/64/icon_U+EB14.png" alt="U+EB14" data-code="U+EB14">
+            </div>
+            <div class="icon-code">U+EB14</div>
+            <div class="unicode">\ueb14</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB15">
+                <img src="black/64/icon_U+EB15.png" alt="U+EB15" data-code="U+EB15">
+            </div>
+            <div class="icon-code">U+EB15</div>
+            <div class="unicode">\ueb15</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB16">
+                <img src="black/64/icon_U+EB16.png" alt="U+EB16" data-code="U+EB16">
+            </div>
+            <div class="icon-code">U+EB16</div>
+            <div class="unicode">\ueb16</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB17">
+                <img src="black/64/icon_U+EB17.png" alt="U+EB17" data-code="U+EB17">
+            </div>
+            <div class="icon-code">U+EB17</div>
+            <div class="unicode">\ueb17</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB18">
+                <img src="black/64/icon_U+EB18.png" alt="U+EB18" data-code="U+EB18">
+            </div>
+            <div class="icon-code">U+EB18</div>
+            <div class="unicode">\ueb18</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB19">
+                <img src="black/64/icon_U+EB19.png" alt="U+EB19" data-code="U+EB19">
+            </div>
+            <div class="icon-code">U+EB19</div>
+            <div class="unicode">\ueb19</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1A">
+                <img src="black/64/icon_U+EB1A.png" alt="U+EB1A" data-code="U+EB1A">
+            </div>
+            <div class="icon-code">U+EB1A</div>
+            <div class="unicode">\ueb1a</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1B">
+                <img src="black/64/icon_U+EB1B.png" alt="U+EB1B" data-code="U+EB1B">
+            </div>
+            <div class="icon-code">U+EB1B</div>
+            <div class="unicode">\ueb1b</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1C">
+                <img src="black/64/icon_U+EB1C.png" alt="U+EB1C" data-code="U+EB1C">
+            </div>
+            <div class="icon-code">U+EB1C</div>
+            <div class="unicode">\ueb1c</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1D">
+                <img src="black/64/icon_U+EB1D.png" alt="U+EB1D" data-code="U+EB1D">
+            </div>
+            <div class="icon-code">U+EB1D</div>
+            <div class="unicode">\ueb1d</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1E">
+                <img src="black/64/icon_U+EB1E.png" alt="U+EB1E" data-code="U+EB1E">
+            </div>
+            <div class="icon-code">U+EB1E</div>
+            <div class="unicode">\ueb1e</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB1F">
+                <img src="black/64/icon_U+EB1F.png" alt="U+EB1F" data-code="U+EB1F">
+            </div>
+            <div class="icon-code">U+EB1F</div>
+            <div class="unicode">\ueb1f</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB20">
+                <img src="black/64/icon_U+EB20.png" alt="U+EB20" data-code="U+EB20">
+            </div>
+            <div class="icon-code">U+EB20</div>
+            <div class="unicode">\ueb20</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB21">
+                <img src="black/64/icon_U+EB21.png" alt="U+EB21" data-code="U+EB21">
+            </div>
+            <div class="icon-code">U+EB21</div>
+            <div class="unicode">\ueb21</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB22">
+                <img src="black/64/icon_U+EB22.png" alt="U+EB22" data-code="U+EB22">
+            </div>
+            <div class="icon-code">U+EB22</div>
+            <div class="unicode">\ueb22</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB23">
+                <img src="black/64/icon_U+EB23.png" alt="U+EB23" data-code="U+EB23">
+            </div>
+            <div class="icon-code">U+EB23</div>
+            <div class="unicode">\ueb23</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB24">
+                <img src="black/64/icon_U+EB24.png" alt="U+EB24" data-code="U+EB24">
+            </div>
+            <div class="icon-code">U+EB24</div>
+            <div class="unicode">\ueb24</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB25">
+                <img src="black/64/icon_U+EB25.png" alt="U+EB25" data-code="U+EB25">
+            </div>
+            <div class="icon-code">U+EB25</div>
+            <div class="unicode">\ueb25</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB26">
+                <img src="black/64/icon_U+EB26.png" alt="U+EB26" data-code="U+EB26">
+            </div>
+            <div class="icon-code">U+EB26</div>
+            <div class="unicode">\ueb26</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB27">
+                <img src="black/64/icon_U+EB27.png" alt="U+EB27" data-code="U+EB27">
+            </div>
+            <div class="icon-code">U+EB27</div>
+            <div class="unicode">\ueb27</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB28">
+                <img src="black/64/icon_U+EB28.png" alt="U+EB28" data-code="U+EB28">
+            </div>
+            <div class="icon-code">U+EB28</div>
+            <div class="unicode">\ueb28</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB29">
+                <img src="black/64/icon_U+EB29.png" alt="U+EB29" data-code="U+EB29">
+            </div>
+            <div class="icon-code">U+EB29</div>
+            <div class="unicode">\ueb29</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2A">
+                <img src="black/64/icon_U+EB2A.png" alt="U+EB2A" data-code="U+EB2A">
+            </div>
+            <div class="icon-code">U+EB2A</div>
+            <div class="unicode">\ueb2a</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2B">
+                <img src="black/64/icon_U+EB2B.png" alt="U+EB2B" data-code="U+EB2B">
+            </div>
+            <div class="icon-code">U+EB2B</div>
+            <div class="unicode">\ueb2b</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2C">
+                <img src="black/64/icon_U+EB2C.png" alt="U+EB2C" data-code="U+EB2C">
+            </div>
+            <div class="icon-code">U+EB2C</div>
+            <div class="unicode">\ueb2c</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2D">
+                <img src="black/64/icon_U+EB2D.png" alt="U+EB2D" data-code="U+EB2D">
+            </div>
+            <div class="icon-code">U+EB2D</div>
+            <div class="unicode">\ueb2d</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2E">
+                <img src="black/64/icon_U+EB2E.png" alt="U+EB2E" data-code="U+EB2E">
+            </div>
+            <div class="icon-code">U+EB2E</div>
+            <div class="unicode">\ueb2e</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB2F">
+                <img src="black/64/icon_U+EB2F.png" alt="U+EB2F" data-code="U+EB2F">
+            </div>
+            <div class="icon-code">U+EB2F</div>
+            <div class="unicode">\ueb2f</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB30">
+                <img src="black/64/icon_U+EB30.png" alt="U+EB30" data-code="U+EB30">
+            </div>
+            <div class="icon-code">U+EB30</div>
+            <div class="unicode">\ueb30</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB31">
+                <img src="black/64/icon_U+EB31.png" alt="U+EB31" data-code="U+EB31">
+            </div>
+            <div class="icon-code">U+EB31</div>
+            <div class="unicode">\ueb31</div>
+        </div>
+        <div class="icon-item">
+            <div class="icon-preview" id="preview-U+EB32">
+                <img src="black/64/icon_U+EB32.png" alt="U+EB32" data-code="U+EB32">
+            </div>
+            <div class="icon-code">U+EB32</div>
+            <div class="unicode">\ueb32</div>
+        </div>
+    </div>
+    <script>
+        function updateIcons() {{
+            const color = document.getElementById('colorSelect').value;
+            const size = document.getElementById('sizeSelect').value;
+            const images = document.querySelectorAll('.icon-preview img');
+
+            images.forEach(img => {{
+                const code = img.getAttribute('data-code');
+                const filename = `icon_${{code}}.png`;
+                img.src = `${{color}}/${{size}}/${{filename}}`;
+
+                // Update preview background for white icons
+                const preview = img.parentElement;
+                if (color === 'white') {{
+                    preview.classList.add('dark');
+                }} else {{
+                    preview.classList.remove('dark');
+                }}
+            }});
+        }}
+    </script>
+</body>
+</html>
